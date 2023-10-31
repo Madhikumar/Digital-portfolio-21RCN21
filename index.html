@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript">
+
+        const header=document.querySelector('.navbar');
+
+        window.onscroll=function(){
+            var top=window.scrollY;
+            if(top>=100){
+                header.classList.add('navbarDark');
+            }
+            else{
+                header.classList.remove('navbarDark');
+            }
+        
+        }
+    </script>
+</head>
+
+<body> 
+
+    <header id="top">
+        
+        <h1>MATHIKUMAR</h1>
+        <p> BCA STUDENT </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about me">About me   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#skills">skills   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#portfolio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;my learnings&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</a></li>
+            <li><a href="#contact">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact me&nbsp;&nbsp;&nbsp;</a></li>
+        </ul>
+    </nav>
+
+    <section id="about me">
+        <h2><u>About Me</u></h2><br>
+        <p>I'm a dedicated final year bca student.<br>studying at tpgasc trichy.
+          <br>  I want to become a SOFTWARE Developer.
+        </p>
+       
+    </section>    
+    <section id="skills">
+       
+        <h2><u>my skills</u></h2><br>
+        
+           
+        <p> 1.problem solving skills.<br>
+            2.quantative apptitude.<br>
+            
+            3.team player.<br>
+            4.communication.<br>
+            5.logical thinking
+            
+        </p>
+    </section>
+
+    <section id="portfolio">
+        <h2><u>my learnings</u></h2><br>
+        <table  class="table" border="3">
+        <tr><td>language</td><td>learning percentage</td></tr>
+        <tr><td rowspan="1">html</td><td>85%</td></tr>
+        <tr><td rowspan="1">css</td><td>60%</td></tr>
+        <tr><td>javascript</td><td>55%</td></tr>
+        <tr><td>java</td><td>45%</td></tr>
+
+
+</table>
+
+    </section>
+
+    <section id="contact">
+        <h2><u>Contact</u></h2><br>
+        <gmail><h3>gmail</h3>
+        <span>mathi123@gmail.com</span></gmail><br>
+        
+        <h3>instagram</h3>
+        <span>mathi123</span>
+    </section>
+    <section class="gotop">
+        <a href="#top">go to top</a>
+    </section>
+<hr>
+    <footer>
+        <p>&copy; mathi123</p>
+    </footer>
+
+</body>
+</html>
